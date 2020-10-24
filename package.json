@@ -1,0 +1,19 @@
+{
+  "name": "constructor_js",
+  "version": "1.0.0",
+  "description": "Конструктор на JS",
+  "main": "src/index.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 8080 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "Ruslan <luckytwixy321@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
